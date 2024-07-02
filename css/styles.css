@@ -1,0 +1,27 @@
+main{
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 800px;
+   width: 800px;
+
+}
+.contenedor{
+    background-color: pink;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+}
+.noformateado{
+    height: 200px;
+}
+
+textarea{
+    height: 400px;
+}

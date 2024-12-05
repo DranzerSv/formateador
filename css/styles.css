@@ -1,6 +1,5 @@
 main{
     margin: auto;
-    background-color: aqua;
     display: flex;
    flex-direction: row;
    align-items: center;
@@ -10,7 +9,8 @@ main{
 
 }
 .contenedor{
-    background-color: pink;
+    background-color: #f1f1f1;
+    border-radius: 16px;
     padding: 20px;
     gap: 10px;
     display: flex;
@@ -24,4 +24,23 @@ main{
 
 textarea{
     height: 400px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    max-width: 150px;
+    padding: 8px 8px;
+    margin: auto;
 }
